@@ -33,16 +33,16 @@ window.addEventListener('load', () => {
         const task_actions_el = document.createElement("div");
         task_actions_el.classList.add("actions");
 
-        const task_todo_el = document.createElement("button");
+       const task_todo_el = document.createElement("button");
         task_actions_el.classList.add("todo");
         task_todo_el.innerHTML = "To do";
         task_todo_el.style.backgroundColor = "red";
         task_todo_el.style.color = "white";
         task_todo_el.style.border = "none";
         task_todo_el.style.borderRadius = "10px";
-        task_todo_el.style.padding = "7px 15px";
+        task_todo_el.style.padding = "5px 10px";
         task_todo_el.style.cursor = "pointer";
-        task_todo_el.style.fontSize = "14px"; 
+        task_todo_el.style.fontSize = "12px"; 
 
         const task_doing_el = document.createElement("button");
         task_actions_el.classList.add("doing");
@@ -51,9 +51,9 @@ window.addEventListener('load', () => {
         task_doing_el.style.color = "white"; 
         task_todo_el.style.border = "none";
         task_doing_el.style.borderRadius = "10px";
-        task_doing_el.style.padding = "7px 15px";
+        task_doing_el.style.padding = "5px 10px";
         task_doing_el.style.cursor = "pointer";
-        task_doing_el.style.fontSize = "14px";
+        task_doing_el.style.fontSize = "12px";
 
         const task_done_el = document.createElement("button");
         task_actions_el.classList.add("done");
@@ -62,9 +62,9 @@ window.addEventListener('load', () => {
         task_done_el.style.color = "white";
         task_done_el.style.border = "none";
         task_done_el.style.borderRadius = "10px";
-        task_done_el.style.padding = "7px 15px";
+        task_done_el.style.padding = "5px 10px";
         task_done_el.style.cursor = "pointer";
-        task_done_el.style.fontSize = "14px";
+        task_done_el.style.fontSize = "12px";
 
 
         task_actions_el.appendChild(task_todo_el);
